@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>elgordoodelivery</title>
+  <link rel="stylesheet" href="./estilos/index.css">
+  <link rel="stylesheet" href="./estilos/checklist.css">
+</head>
+  <body>
+    <div class="contenedor">
+      <img src="./multimedia/logo.png" alt="Imagen descriptiva">
+      <h1>El Gordoo Delivery</h1>
+      <a href="./login.html"><img src="./multimedia/login.png" alt="Login"></a>
+    </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./combos.html">Combos</a></li>
+          <li><a href="./bebidas.html">Bebidas</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+          <li><a href="./carrito.html">🛒</a></li>
+        </ul>
+      <nav><a href="./index.html">← Volver</a></nav>
+      </nav>
+          <fieldset>
+            <legend>Contactanos</legend>
+            <label for="nombre">Su nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+              <label for="telefono">Número de teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" required>
+              <label for="correo">Correo electrónico:</label>
+              <input type="email" id="correo" name="correo" required>
+              <label for="asunto">Asunto:</label>
+              <select id="asunto" name="asunto" required>
+                  <option value="">Seleccione un asunto</option>
+                  <option value="pedido">Pedido de bebidas</option>
+                  <option value="reclamo">Reclamo</option>
+                  <option value="eventos">Consulta para eventos</option>
+                  <option value="otro">Otro</option>
+              </select>
+              <label for="pregunta">Su pregunta o mensaje:</label>
+              <textarea id="pregunta" name="pregunta" rows="5" placeholder="Escriba su mensaje aquí..." required></textarea>
+              <button type="submit">Enviar</button>
+          </fieldset>
+            <div class="info">
+                <h2>Nuestra información</h2>
+                <p><strong>📍 Ubicación:</strong><br>Villa Mercedes, San Luis</p>
+                <p><strong>📞 Teléfono:</strong><br>2657-523847</p>
+                <p><strong>📧 Correo:</strong><br><a href="mailto:ElGordooDelivery@gmail.com">ElGordooDelivery@gmail.com</a></p>
+            </div>
+    <footer>
+      <section>
+        <article>
+          <div class="contenedor1">
+            <h3> Derechos Reservados a @El Gordoo Delivery <img src="./multimedia/logo.png" alt=""></h3>
+            <h2>Nuestras redes <a href="https://www.instagram.com/elgordoodelivery/" target="_blank">🔥@ElGordooDelivery🔥</a></h2>
+          </div>    
+        </article>
+      </section>
+    </footer>
+  </body>
+</html>

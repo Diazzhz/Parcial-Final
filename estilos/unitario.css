@@ -1,0 +1,15 @@
+.uni img{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin: 20px;
+}
+.uni{
+    color: black;
+    margin-bottom: 20px;
+    
+}
+.uni p{
+    align-items: center;
+}

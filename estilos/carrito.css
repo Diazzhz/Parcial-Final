@@ -1,0 +1,23 @@
+.cont{
+    color: black;
+}
+.cont section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cont article {
+  flex: 1 1 100px;
+  max-width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cont article img {
+  width: 100%;
+  height: auto;
+}
+h4 {
+    color: black;
+}

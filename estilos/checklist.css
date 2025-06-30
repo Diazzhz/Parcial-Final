@@ -1,0 +1,16 @@
+fieldset{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(90, 91, 92);
+    font-size: 30px;
+    font-family: Arial;
+}
+fieldset img {
+    width: 100px;
+}
+.info {
+    color: black;
+}
